@@ -14,4 +14,4 @@ javascript: fetch('https://unpkg.com/spacingjs').then(res => res.text()).then(te
 ```
 
 # 欢迎PR
-如果有更好，更方便的开发调试网页小工具，欢迎PR
+如果有更好，更方便的开发调试网页脚本，欢迎PR
