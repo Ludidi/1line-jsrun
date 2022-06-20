@@ -1,5 +1,5 @@
 # 1line-jsrun
-一行js代码，可通过标签栏直接执行
+> 一行js代码，可通过标签栏直接执行
 
 ## Swagger 一键复制
 基于Swagger doc，一键复制URL
@@ -12,3 +12,6 @@ javascript: eval('const buttons=document.querySelectorAll(\".opblock-summary-con
 ```js
 javascript: fetch('https://unpkg.com/spacingjs').then(res => res.text()).then(text => {eval(text); alert('spacingjs success')})
 ```
+
+# 欢迎PR
+如果有更好，更方便的开发调试网页小工具，欢迎PR
