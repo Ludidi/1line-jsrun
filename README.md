@@ -13,5 +13,10 @@ javascript: eval('const buttons=document.querySelectorAll(\".opblock-summary-con
 javascript: fetch('https://unpkg.com/spacingjs').then(res => res.text()).then(text => {eval(text); alert('spacingjs success')})
 ```
 
+## CSDN 复制
+```js
+javascript: document.querySelector('#content_views pre code').style.userSelect = 'text'; alert('success');
+```
+
 # 欢迎PR
 如果有更好，更方便的开发调试网页脚本，欢迎PR
