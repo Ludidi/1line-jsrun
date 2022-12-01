@@ -15,7 +15,7 @@ javascript: fetch('https://unpkg.com/spacingjs').then(res => res.text()).then(te
 
 ## CSDN 复制
 ```js
-javascript: document.querySelector('#content_views pre code').style.userSelect = 'text'; alert('success');
+javascript:document.querySelectorAll('#content_views pre code').forEach(el => (el.style.userSelect = 'text')); alert('success');
 ```
 
 # 欢迎PR
